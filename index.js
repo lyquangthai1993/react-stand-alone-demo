@@ -11,8 +11,8 @@ function Player(props) {
 }
 var app = (
   <div>
-    <Player name="Steve" hobbey="Cricket" />
-    <Player name="David" hobbey="Cricket" />
+    <Player name="Steve" hobby="Cricket" />
+    <Player name="David" hobby="Cricket" />
   </div>
 );
 ReactDOM.render(app, document.querySelector("#app"));
